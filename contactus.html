@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Stint+Ultra+Expanded&family=Teko:wght@300..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/line-awesome@1.3.0/dist/line-awesome/css/line-awesome.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css" />
+  <title>Vogue Enclave Interiors</title>
+  <!-- Proper favicon -->
+  <link rel="icon" type="image/png" href="assets/icons8-v-96.png">
+</head>
+
+<body>
+  <!-- section 1 start from here -->
+  <section class="background-2">
+    <div class="head">
+      <nav class="navbar navbar-expand-lg fixed-top cus-nav">
+        <div class="container-fluid nav-con">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo-transparent.png" alt="Logo" width="200" height="60"
+              class="d-inline-block align-text-top fab fa-mdb fa-4x">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="blogs.html">Blog</a></li>
+              <li class="cont-items">
+                <a class="btn btn-dark ms-2" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="cont-us pt-5 pb-5">
+      <div class="container">
+        <div class="row justify-content-center con">
+          <div class="col-lg-7">
+            <div class="form-head">
+              <h2 class="con-heading">Contact Us</h2>
+              <p class="con-details">
+                At Vogue Enclave Interiors, we blend luxury and innovation to create stunning, personalized
+                spaces. Our designs bring elegance, comfort, and functionality to your home and office.
+              </p>
+            </div>
+            <form id="contactForm" novalidate>
+
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="validationServer01">First name</label>
+                  <input type="text" class="form-control" id="validationServer01" placeholder="First name" required>
+                  <div class="invalid-feedback">Please enter your first name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationServer02">Last name</label>
+                  <input type="text" class="form-control" id="validationServer02" placeholder="Last name" required>
+                  <div class="invalid-feedback">Please enter your last name.</div>
+                </div>
+              </div>
+
+              <div class="row g-3 mt-2">
+                <div class="col-md-6">
+                  <label for="validationServer03">Email</label>
+                  <input type="email" class="form-control" id="validationServer03" placeholder="Email" required>
+                  <div class="invalid-feedback">Please provide a valid email.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationServer04">Phone</label>
+                  <div class="input-group">
+                    <span class="input-group-text">+91</span>
+                    <input type="tel" class="form-control" id="validationServer04" placeholder="Phone" minlength="10"
+                      maxlength="10" pattern="[7-9]\d{9}" required>
+                    <div class="invalid-feedback">Please provide a valid 10-digit phone number.</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-3">
+                <div class="col-12">
+                  <label for="validationServer08">Comments</label>
+                  <textarea class="form-control" id="validationServer08" rows="4"
+                    placeholder="Please provide additional details about what you need help with." required></textarea>
+                  <div class="invalid-feedback">Please enter your message.</div>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-lg-8 mb-3">
+                  <h3>Services</h3>
+                  <div class="col">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                      <label class="form-check-label" for="inlineCheckbox1">Home Exterior Design</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                      <label class="form-check-label" for="inlineCheckbox2">Furniture Design</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                      <label class="form-check-label" for="inlineCheckbox3">Modern home Interior</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                      <label class="form-check-label" for="inlineCheckbox4">Architecture</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+                      <label class="form-check-label" for="inlineCheckbox5">2D/3D Design Layout</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+                      <label class="form-check-label" for="inlineCheckbox6">Custom Design Plan</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group mt-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="invalidCheck3" required>
+                  <label class="form-check-label" for="invalidCheck3">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">You must agree before submitting.</div>
+                </div>
+              </div>
+
+              <button class="btn btn-primary mt-3" type="submit">Submit form</button>
+            </form>
+          </div>
+          <div class="col-lg-5">
+            <img src="interior/contactus.png" alt="contactus" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content text-center">
+          <div class="modal-header">
+            <h5 class="modal-title w-100" id="successModalLabel">Thank You!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Your message has been successfully submitted. <br> We’ll get back to you soon!
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 2 start from here -->
+  <section class="question">
+    <div class="container">
+      <div class="row row justify-content-center mb-5 mt-5">
+        <div class="col-lg-8 mb-5 mt-5">
+          <h2 class="text-center mb-4" style="color: #cda274;">FAQ</h2>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  What types of interior design services do you offer?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>We specialize in a wide range of services including modern home interiors, home exterior design,
+                    furniture design, architecture, and 2D/3D layout planning. Whether it's a cozy apartment or a luxury
+                    villa, we tailor each design to your lifestyle and taste.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How does the design process work?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Our process starts with a detailed consultation to understand your vision. From there, we create
+                    custom design plans, 2D/3D visualizations, and collaborate with you through each step—from concept
+                    to completion.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Can you work within a specific budget?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Absolutely. We work with budgets of all sizes and always aim to deliver maximum value without
+                    compromising on quality or aesthetics. Our team ensures transparency and cost-effectiveness
+                    throughout the project.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  How long does an interior project usually take?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Project timelines vary depending on the size and complexity, but most home interiors are completed
+                    within 6–12 weeks. We'll provide you with a clear timeline before we begin and keep you updated
+                    throughout the process.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Do you provide design consultations online?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Yes! We offer virtual consultations for your convenience. You can share your space details,
+                    preferences, and inspirations with us online, and we’ll guide you through design suggestions and
+                    planning remotely.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 9 -->
+  <section class="footer-section">
+    <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+              <a href="https://maps.google.com/?q=JTM+Mall,+Fifth+Floor+505,+Jagatpura" target="_blank">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                  <h4>Find us</h4>
+                  <span>JTM Mall, Fifth Floor 505, Jagatpura</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+              <a href="tel:+919876543210">
+                <i class="fas fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Call us</h4>
+                  <span>+91 9876543210</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+              <a href="mailto:vogueinterior@info.com">
+                <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Mail us</h4>
+                  <span>vogueinterior@info.com</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 mb-50">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <a href="index.html"><img src="img/logo-transparent.png" class="img-fluid" alt="logo"></a>
+              </div>
+              <div class="footer-text">
+                <p>Vogue Enclave Interior is committed to crafting elegant and functional spaces that reflect your
+                  style. With expert craftsmanship and innovative designs, we bring your vision to life. Elevate your
+                  interiors with us.</p>
+              </div>
+              <div class="footer-social-icon">
+                <span class="foll">Follow us</span>
+                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in linkedin-bg"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Useful Links</h3>
+              </div>
+              <ul class="use-fl">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/index.html">Expert Team</a></li>
+                <li><a href="/interiordesign.html">Interior Design</a></li>
+                <li><a href="/contactus.html">Contact us</a></li>
+                <li><a href="/architecture.html">Architecture</a></li>
+                <li><a href="/career.html">Career</a></li>
+                <li><a href="/furnitures.html">Furniture</a></li>
+                <li><a href="/blogs.html">Blogs</a></li>
+                <li><a href="/services.html">Our Services</a></li>
+                <li><a href="/aboutus.html">About us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Subscribe</h3>
+              </div>
+              <div class="footer-text mb-25">
+                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+              </div>
+              <div class="subscribe-form">
+                <!-- <form action="#">
+                  <input type="text" placeholder="Email Address">
+                  <button><i class="fab fa-telegram-plane"></i></button>
+                </form> -->
+                <!-- <form action="#">
+                  <label for="email" class="label">
+                    <h3>Email:</h3>
+                  </label>
+                  <input type="email" name="email" id="email" placeholder="Email Address" autocomplete="email" required>
+                  <button type="submit">
+                    <i class="fab fa-telegram-plane"></i>
+                  </button>
+                </form> -->
+                <form action="#">
+                  <label for="email" class="label">
+                    <h3>Email:</h3>
+                  </label>
+                  <input type="email" name="email" id="email" placeholder="Email Address" autocomplete="email" required>
+                  <button type="submit">
+                    <i class="fab fa-telegram-plane"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="terms.html">Our Terms & Conditions |</a></li>
+                <li><a href="#">Privacy Policy |</a></li>
+                <li><a href="#">Copyright © 2025</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="indscript4.js"></script>
+  <script>
+    const form = document.getElementById('contactForm');
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+
+      if (form.checkValidity()) {
+        const modal = new bootstrap.Modal(document.getElementById('successModal'));
+        modal.show();
+        form.reset();
+        form.classList.remove('was-validated');
+      } else {
+        form.classList.add('was-validated');
+      }
+    });
+  </script>
+</body>
+
+</html>
